@@ -178,15 +178,15 @@ window.onload = function () {
     mainElem.appendChild(logoElem);
 
     // newest urls
-    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '请使用https://协议访问网站'});
+    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '如不能访问请发送任意内容到邮箱获取备用地址'});
     mainElem.appendChild(newestFieldElem);
 
     // other urls
-    var otherFieldElem = createFieldElem({title: '务必收藏地址发布页', items: otherUrls});
+    var otherFieldElem = createFieldElem({title: '地址发布页', items: otherUrls});
     mainElem.appendChild(otherFieldElem);
 
     // email
-    var mailFieldElem = createFieldElem({title: '发送邮件获得最新地址', items: emails, plainText: true});
+    var mailFieldElem = createFieldElem({title: '务必收藏邮箱，发送任意内容获得最新地址', items: emails, plainText: true});
     mainElem.appendChild(mailFieldElem);
 
     // forever urls
